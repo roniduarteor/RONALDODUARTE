@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <h2>Tabelas</h2>
+    <table border="2">
+        <tr>
+            <td><strong>RA</strong></td>
+            <td><strong>Nome Aluno</strong></td>
+            <td><strong>Idade</strong></td>
+        </tr>
+        <tr>
+            <td>000111</td>
+            <td>Roni</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>111000</td>
+            <td>Ronaldo</td>
+            <td>16</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Tabela Organizada</h2>
+    <table border="2">
+        <thead> <!-- cabeçalho da tabela-->
+            <tr>
+                <td>Código</td>
+                <td>Produto</td>
+                <td>Valor</td>
+                <td>Vendas</td>
+            </tr>
+        </thead>
+        <tbody> <!-- corpo da tabela-->
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$6.000,00</td>
+                <td rowspan="3">Gamer</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Cadeira</td>
+                <td>R$1.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- rodapé da tabela-->
+            <td colspan="2">Total</td> <!-- "colspan" mesclar colunas-->
+            <td>R$7.000,00</td>
+        </tfoot>
+    </table>
+</body>
+</html>
