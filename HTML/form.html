@@ -18,23 +18,34 @@
 
         <label for="email">Email:</label><br>
         <input type="email" id="email" required placeholder="fulaninho@email.com"><br>
+        
 
 
-        <input type="submit">
+        <input type="submit" value="Cadastrar Fulaninho">
 
+        <hr>
+        <label for="nome">Hidden:</label><br>
+        <input type="hidden" id="nome" required placeholder="Fulano"><br>
+
+
+        <label for="sobrenome">Readonly:</label><br>
+        <input type="text" id="sobrenome" readonly placeholder="de Cícrano"><br><br>
+
+        <label for="sobrenome">Disabled:</label><br>
+        <input type="text" id="sobrenome" disabled placeholder="de Cícrano"><br><br>
 
     </form>
 <hr>
     <h3>BOTÃO DE SELEÇÃO</h3>
 <h4>Escolha sua linguagem Web favorita:</h4>
     <form>
-        <input type="radio" id="html" name="linguagem">
+        <input type="radio" id="html" name="linguagem" required>
         <label for="html">HTML</label><br>
 
-        <input type="radio" id="css" name="linguagem">
+        <input type="radio" id="css" name="linguagem" required>
         <label for="css">CSS</label><br>
 
-        <input type="radio" id="javascript" name="linguagem">
+        <input type="radio" id="javascript" name="linguagem" required>
         <label for="javascript">JavaScript</label>
     </form>
 </body>
